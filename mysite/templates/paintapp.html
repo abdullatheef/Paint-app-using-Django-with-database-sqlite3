@@ -55,7 +55,6 @@ alert("Enter filename:");
 }
 else{
 $.post("/save/",{'name':filename.value,'data':JSON.stringify(jsondata)},function(data,status){alert("saved")});
-alert("saved");
 
 }
 }
